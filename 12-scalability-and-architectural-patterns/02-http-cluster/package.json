@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "benchmark": "autocannon -c 200 -d 10 http://localhost:8080"
+    "benchmark": "npx autocannon -c 200 -d 10 http://localhost:8080"
   },
   "keywords": [],
   "author": "",
